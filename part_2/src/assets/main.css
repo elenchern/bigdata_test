@@ -1,0 +1,43 @@
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin: auto;
+}
+
+.modal {
+  background: #FFFFFF;
+  box-shadow: 2px 2px 20px 1px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+@media (max-width: 1640px) {
+  .container {
+    padding: 0 80px;
+  }
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+}
